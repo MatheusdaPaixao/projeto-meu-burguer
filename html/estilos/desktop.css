@@ -27,6 +27,9 @@ section#principal{
     padding-left: 100px;
 }
 
+section > div.delivery > p{
+    background-image: url('../../imagens/motocicleta.png');
+}
 h1{
     font-size: 3em;
     padding-top: 30px;
@@ -38,10 +41,27 @@ h1{
     padding: 15px;
     border-radius: 10px;
     text-decoration: none;
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
 }
 h4{
     text-align: center;
-    text-decoration: none;
     color: white;
     
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+span{
+    display: inline-block;
+}
+
+span > img{
+    width: 27px;
+    height: 27px;
 }
