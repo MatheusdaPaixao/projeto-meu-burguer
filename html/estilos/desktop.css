@@ -7,6 +7,7 @@
 
 html,body{
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 
 body{
@@ -15,12 +16,34 @@ body{
     height: 100vh;
 }
 
-img{
+#burguer > img{
     display: block;
     width: 130px;
     border-radius: 10px;
     margin: 35px;
  }
+
+ .social2{
+    display: inline-block;
+    width: 500px;
+    height: 304px;
+    position: absolute;
+    right: 0;
+    padding-right: 40px;
+    border-radius: 50%;
+ }
+ .social1{
+    display: inline-block;
+    width: 27px;
+    height: ;
+    position: absolute;
+    right: 0;
+    padding-right: 100px;
+    border-radius: 50%;
+ }
+.social1:hover{
+    
+}
 
 section#principal{
     font-weight: bolder;
@@ -57,11 +80,7 @@ a{
     text-align: right;
 }
 
-span{
+p > img{
     display: inline-block;
-}
-
-span > img{
     width: 27px;
-    height: 27px;
 }
