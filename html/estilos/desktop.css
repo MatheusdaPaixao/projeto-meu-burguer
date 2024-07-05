@@ -25,21 +25,17 @@ body{
 
  .social2{
     display: inline-block;
-    width: 500px;
-    height: 304px;
+    width: 27px;
     position: absolute;
     right: 0;
     padding-right: 40px;
-    border-radius: 50%;
  }
  .social1{
     display: inline-block;
     width: 27px;
-    height: ;
     position: absolute;
     right: 0;
     padding-right: 100px;
-    border-radius: 50%;
  }
 .social1:hover{
     
