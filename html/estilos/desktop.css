@@ -5,78 +5,80 @@
     padding: 0px;
 }
 
-html,body{
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
-}
-
 body{
-    background-color: rgba(0, 0, 0, 0.918);
-    color: white;
-    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.952);
+    color:white;
 }
-
-#burguer > img{
-    display: block;
-    width: 130px;
-    border-radius: 10px;
-    margin: 35px;
- }
-
- .social2{
-    display: inline-block;
-    width: 27px;
-    position: absolute;
-    right: 0;
-    padding-right: 40px;
- }
- .social1{
-    display: inline-block;
-    width: 27px;
-    position: absolute;
-    right: 0;
-    padding-right: 100px;
- }
-.social1:hover{
-    
-}
-
-section#principal{
-    font-weight: bolder;
+main{
     padding-left: 100px;
+
 }
 
-section > div.delivery > p{
-    background-image: url('../../imagens/motocicleta.png');
+#logo img{
+    width: 125px;
+    position: relative;
+    border-radius: 7px;
+    top: 40px;
+    left: 40px;
+
 }
-h1{
+#social  img{
+    width: 27px;
+    padding-right: 15px;
+    float: right;
+    position: relative;
+    top: 115px;
+    right: 30px;
+
+    transition: transform 0.4s ease;
+}
+
+#social img:hover{
+    transform: scale(1.1);
+}
+
+
+section > h1{
+    text-shadow: 0.5px 0.5px 1px black;
+    margin-top: 100px;
     font-size: 3em;
-    padding-top: 30px;
+    font-weight: bolder;
+    width: 100%;
 }
-  
-#cardapio{
-    background-color: rgba(255, 166, 0, 0.699);
+h5{
+    padding-left: 35px;
+    font-size: 0.9em;
+}
+h5 > img{
+    position: absolute;
+    left: 96px;
+    top: 342px;
+}
+#button h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
     width: 500px;
     padding: 15px;
-    border-radius: 10px;
-    text-decoration: none;
-    position: absolute;
-    right: 0;
-    margin-right: 100px;
+    background-color: rgba(255, 166, 0, 0.801);
+    border-radius: 15px;
+
+    float: right;
+    position:relative;
+    top: -70px; 
+    right: 200px;
+
+    transition: transform 0.4s ease;
+
+
 }
-h4{
-    text-align: center;
-    color: white;
-    
+#button h4:hover{
+    transform: scale(1.05);
+
 }
 
-a{
-    text-decoration: none;
-    display: block;
-    text-align: right;
-}
-
-p > img{
-    display: inline-block;
-    width: 27px;
+#button h4:active{
+    background-color: rgba(255, 166, 0, 0.938);
 }
