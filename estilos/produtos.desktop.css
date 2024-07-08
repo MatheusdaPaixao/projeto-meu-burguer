@@ -1,0 +1,55 @@
+@charset "UTF8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
+    height: 100vh;
+}
+nav img{
+    width: 27px;
+    float: right;
+    padding-right: 15px;
+}
+header{
+    margin: auto;
+    background-image: url('../imagens/banner.1300.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    border-radius: 10px;
+    height: 300px;
+    width: 70vw;
+}
+
+header img{
+    position: absolute;
+    top: 235px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+
+h1{
+    font-size: 1.9em;
+    position: absolute;
+    top: 300px;
+    padding-left: 390px;
+    padding-top: 10px;
+}
+
+
+main{
+    width: 70vw;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+
